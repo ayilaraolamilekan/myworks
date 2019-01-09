@@ -1,0 +1,60 @@
+body{
+    background-image: url("test1.jpg");
+    background-size: cover;
+    }   
+.img{
+    text-align: center;
+}
+.form{
+    padding: 20px;
+}
+.span{
+    margin-top: 10px;
+}
+input[type="text"],
+input[type="password"]{
+    height: 20px;
+    width: 200px;
+    display: block;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.dev{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.state,.web{
+    text-align: center;
+    font-family: David sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.state{
+    font-size: 20px;
+    color: white;
+}
+.img{
+    text-align: center;
+}
+#forgot{
+    padding-top: 10px;
+    color: white;
+    word-spacing: 2px;
+
+}
+:focus{
+    background: white;
+}
+.box{
+    background-image: inherit;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}

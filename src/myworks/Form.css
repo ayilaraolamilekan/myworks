@@ -1,0 +1,56 @@
+body{
+    background-color: lightskyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.body{
+    background-color: inherit;
+    padding: 30px;
+    margin: 20px;
+    height: 1600px;
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0 0 10px 3px white;
+}
+.logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form12{
+    padding: 10px;
+}
+.dsc,
+.kwara{
+    font-family: david sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.kwara{
+    font-size: 20px;
+}
+input[type="text"]{
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.sub{
+    height: 40px;
+    width: 70px;
+}
+li{
+    list-style-type: none;
+}
+.in{
+    height: 50px;
+    width: 100px;
+}
+.text{
+    font-size: 20px;
+    color: red;
+    text-shadow: 20px 5px 4px blue;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}

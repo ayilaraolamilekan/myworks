@@ -1,0 +1,91 @@
+body{
+    margin: auto;
+    width: 900px;
+    border: solid;
+    padding: 20px;
+}
+header,
+footer{
+    text-align: center;
+    padding-top: 40px;
+    height: 150px;
+    background-color: purple;
+    color: white;
+    font-size: 40px;
+}
+footer{
+    background-color: #00a8ff;
+}
+.logo{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: yellow;
+}
+.div{
+    background-color: darkgray;
+    padding: 40px;
+    line-height: 1.5;
+
+}
+form{
+    padding: 10px;
+}
+input[type="text"]{
+    display: block;
+    border:2px solid;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+input[type="submit"]{
+    width: 150px;
+    padding-left: 10px;
+    height: 40px;
+    background-color: #00a8ff;
+    color: white;
+    border: #00a8ff;
+}
+a:link {
+    color:purple;
+}
+a:visited {
+    color:red;
+}
+a:hover{
+    color: cyan;
+    background-color: yellow;
+}
+a:active{
+    font-size: 26px;
+}
+:focus{
+    background-color: green ;
+}
+ul{
+    border: 2px dotted red;
+    padding: 26px;
+    margin: auto;
+    list-style-position: inside;
+    font-size: 1.5em;
+    background-color: white;
+}
+img{
+    margin-right: 20px;
+}
+li{
+    margin: auto;
+    border-bottom: black solid;
+    padding: 15px;
+}
+li:first-child{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+a[href^="http://"]{
+    color: blue;
+}

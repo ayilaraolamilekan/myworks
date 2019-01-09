@@ -1,0 +1,49 @@
+body{
+    background-color: lightskyblue;
+    margin: auto;
+}
+.word{
+	text-align: center;
+	font-size: 30px;
+	font-family: david;
+	margin-top: 5px;
+}
+.wara{
+	text-align: center;
+	font-size: 20px;
+	font-family: david;
+}
+.srs{
+	text-align: center;
+}
+.box{
+	background: white;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    list-style-type: none;
+    border: 2px solid lightskyblue;
+    background-color: aliceblue;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+}
+li{
+    padding: 5px;
+    color: black;
+    margin: 5px;
+}
+#content{
+    background: aliceblue;
+    margin: 10px;
+    border: 2px solid;
+    -webkit-column-count: 4;
+    padding: 10px;
+}
+#footer{
+    background: aliceblue;
+    border: 2px solid lightskyblue;
+    margin: 10px;
+    padding: 10px;
+}
